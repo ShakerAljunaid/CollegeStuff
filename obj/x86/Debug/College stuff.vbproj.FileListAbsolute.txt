@@ -1,0 +1,342 @@
+D:\College stuff\bin\Debug\College stuff.accdb
+D:\College stuff\bin\Debug\College stuff.exe.config
+D:\College stuff\bin\Debug\College stuff.exe
+D:\College stuff\bin\Debug\College stuff.pdb
+D:\College stuff\bin\Debug\College stuff.xml
+D:\College stuff\obj\x86\Debug\College_stuff.Form1.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Resources.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Programming_stuff.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Programming.resources
+D:\College stuff\obj\x86\Debug\College stuff.vbproj.GenerateResource.Cache
+D:\College stuff\obj\x86\Debug\College stuff.exe
+D:\College stuff\obj\x86\Debug\College stuff.xml
+D:\College stuff\obj\x86\Debug\College stuff.pdb
+D:\College stuff\obj\x86\Debug\College_stuff.Programming_assignment.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Computer_ethics.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Mathematics.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Practical_programming.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Math_lectures.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Math_assignment.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Statistics_theoretical_.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Statistics.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Statistics_assignment_.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Logic_design.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Logic_theoretical_.resources
+C:\College stuff\bin\Debug\College stuff.exe.config
+C:\College stuff\obj\x86\Debug\College stuff.exe
+C:\College stuff\obj\x86\Debug\College stuff.xml
+C:\College stuff\obj\x86\Debug\College stuff.pdb
+C:\College stuff\bin\Debug\College stuff.accdb
+C:\College stuff\bin\Debug\College stuff.exe
+C:\College stuff\bin\Debug\College stuff.pdb
+C:\College stuff\bin\Debug\College stuff.xml
+C:\College stuff\obj\x86\Debug\College_stuff.Compute_skills.resources
+C:\College stuff\obj\x86\Debug\College_stuff.Computer_ethics.resources
+C:\College stuff\obj\x86\Debug\College_stuff.Form1.resources
+C:\College stuff\obj\x86\Debug\College_stuff.Logic_design.resources
+C:\College stuff\obj\x86\Debug\College_stuff.Logic_theoretical_.resources
+C:\College stuff\obj\x86\Debug\College_stuff.Math_assignment.resources
+C:\College stuff\obj\x86\Debug\College_stuff.Math_lectures.resources
+C:\College stuff\obj\x86\Debug\College_stuff.Mathematics.resources
+C:\College stuff\obj\x86\Debug\College_stuff.Resources.resources
+C:\College stuff\obj\x86\Debug\College_stuff.Practical_programming.resources
+C:\College stuff\obj\x86\Debug\College_stuff.Programming_assignment.resources
+C:\College stuff\obj\x86\Debug\College_stuff.Programming_stuff.resources
+C:\College stuff\obj\x86\Debug\College_stuff.Programming.resources
+C:\College stuff\obj\x86\Debug\College_stuff.Statistics_assignment_.resources
+C:\College stuff\obj\x86\Debug\College_stuff.Statistics_theoretical_.resources
+C:\College stuff\obj\x86\Debug\College_stuff.Statistics.resources
+C:\College stuff\obj\x86\Debug\College stuff.vbproj.GenerateResource.Cache
+D:\College stuff\obj\x86\Debug\College_stuff.Logic_practical_.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Logic_assignment_.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Communication_skills.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Curricula.resources
+D:\College stuff\obj\x86\Debug\College_stuff.The_beginning.resources
+D:\College stuff\obj\x86\Debug\College_stuff.College.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Plans.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Schedule.resources
+D:\College stuff\obj\x86\Debug\College_stuff.Diverse_stuff.resources
+D:\C++ trials\College stuff\bin\Debug\College stuff.exe.config
+D:\C++ trials\College stuff\obj\x86\Debug\College stuff.exe
+D:\C++ trials\College stuff\obj\x86\Debug\College stuff.xml
+D:\C++ trials\College stuff\obj\x86\Debug\College stuff.pdb
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.College.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Communication_skills.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Form1.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Logic_design.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Logic_assignment_.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Logic_practical_.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Logic_theoretical_.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Math_assignment.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Math_lectures.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Mathematics.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Resources.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Plans.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Programming_assignment.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Programming.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Schedule.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Statistics_assignment_.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Statistics_theoretical_.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Statistics.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.The_beginning.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College stuff.vbproj.GenerateResource.Cache
+D:\C++ trials\College stuff\bin\Debug\College stuff.accdb
+D:\C++ trials\College stuff\bin\Debug\College stuff.exe
+D:\C++ trials\College stuff\bin\Debug\College stuff.pdb
+D:\C++ trials\College stuff\bin\Debug\College stuff.xml
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Computer_ethics.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Diverse_stuff.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Help.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Theoretical_Programming.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Programming_in_the_class.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Practical_intheclass.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.ProImportant_notes.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Programming_trials.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Statistics_notes.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Logic_notes.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Math_notes.resources
+D:\C++ trials\College stuff\obj\x86\Debug\College_stuff.Notes.resources
+D:\Ready files\V.B\College stuff(Ultimate)\bin\Debug\College stuff.exe.config
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College stuff.exe
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College stuff.xml
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College stuff.pdb
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.College.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Communication_skills.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Computer_ethics.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Diverse_stuff.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Form1.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Help.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.ProImportant_notes.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Logic_design.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Logic_notes.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Logic_assignment_.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Logic_practical_.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Logic_theoretical_.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Math_assignment.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Math_lectures.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Math_notes.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Mathematics.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Resources.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Notes.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Plans.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Practical_intheclass.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Programming_assignment.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Programming_trials.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Programming_in_the_class.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Statistics_notes.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Theoretical_Programming.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Programming.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Schedule.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Statistics_assignment_.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Statistics_theoretical_.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Statistics.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College_stuff.The_beginning.resources
+D:\Ready files\V.B\College stuff(Ultimate)\obj\x86\Debug\College stuff.vbproj.GenerateResource.Cache
+D:\Ready files\V.B\College stuff(Ultimate)\bin\Debug\College stuff.accdb
+D:\Ready files\V.B\College stuff(Ultimate)\bin\Debug\College stuff.exe
+D:\Ready files\V.B\College stuff(Ultimate)\bin\Debug\College stuff.pdb
+D:\Ready files\V.B\College stuff(Ultimate)\bin\Debug\College stuff.xml
+E:\Important programs(Backup versions)\College stuff(Ultimate)\bin\Debug\College stuff.exe.config
+E:\Important programs(Backup versions)\College stuff(Ultimate)\obj\x86\Debug\College stuff.exe
+E:\Important programs(Backup versions)\College stuff(Ultimate)\obj\x86\Debug\College stuff.xml
+E:\Important programs(Backup versions)\College stuff(Ultimate)\obj\x86\Debug\College stuff.pdb
+D:\College stuff(Ultimate)\bin\Debug\College stuff.exe.config
+D:\College stuff(Ultimate)\obj\x86\Debug\College stuff.exe
+D:\College stuff(Ultimate)\obj\x86\Debug\College stuff.xml
+D:\College stuff(Ultimate)\obj\x86\Debug\College stuff.pdb
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.College.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Free_course.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Diverse_stuff.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Form1.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.OS.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Resources.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Notes.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Plans.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Programming_in_the_class.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Schedule.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.The_beginning.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College stuff.vbproj.GenerateResource.Cache
+D:\College stuff(Ultimate)\bin\Debug\College stuff.accdb
+D:\College stuff(Ultimate)\bin\Debug\College stuff.exe
+D:\College stuff(Ultimate)\bin\Debug\College stuff.pdb
+D:\College stuff(Ultimate)\bin\Debug\College stuff.xml
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Computer_architecture.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.CA_assignment_.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Theoretical_VP.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.VP.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.OOP.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.DS_assignment_.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Data_structures.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.VP_assignment.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.OOP_assignment.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Notes_OOP.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Notes_CA.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Practical_CA.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Notes_VP.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Practical_OOP.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Notes_DS.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Trials_OOP.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Theoretical_CA.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Theoretical_OOP.resources
+D:\College stuff(Ultimate)\obj\x86\Debug\College_stuff.Theoretical_DS.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\bin\Debug\College stuff.exe.config
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College stuff.exe
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College stuff.xml
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College stuff.pdb
+D:\Ready files\V.B\College stuff(Ultimate)second semester\bin\Debug\College stuff.accdb
+D:\Ready files\V.B\College stuff(Ultimate)second semester\bin\Debug\College stuff.exe
+D:\Ready files\V.B\College stuff(Ultimate)second semester\bin\Debug\College stuff.pdb
+D:\Ready files\V.B\College stuff(Ultimate)second semester\bin\Debug\College stuff.xml
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.College.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Trials_OOP.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Free_course.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.OS.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Diverse_stuff.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Form1.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Notes_OOP.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Computer_architecture.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Notes_CA.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.CA_assignment_.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Practical_CA.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Theoretical_CA.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.VP_assignment.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Theoretical_VP.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Notes_VP.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.VP.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Resources.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Notes.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Plans.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Practical_OOP.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.OOP_assignment.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Programming_in_the_class.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Notes_DS.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Theoretical_OOP.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.OOP.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Schedule.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.DS_assignment_.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Theoretical_DS.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Data_structures.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.The_beginning.resources
+D:\Ready files\V.B\College stuff(Ultimate)second semester\obj\x86\Debug\College stuff.vbproj.GenerateResource.Cache
+D:\College stuff(Ultimate)second semester\bin\Debug\College stuff.exe.config
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College stuff.exe
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College stuff.xml
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College stuff.pdb
+D:\College stuff(Ultimate)second semester\bin\Debug\College stuff.accdb
+D:\College stuff(Ultimate)second semester\bin\Debug\College stuff.exe
+D:\College stuff(Ultimate)second semester\bin\Debug\College stuff.pdb
+D:\College stuff(Ultimate)second semester\bin\Debug\College stuff.xml
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.College.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Folders.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Diverse_stuff.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Form1.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.CA_assignment_.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.VP_assignment.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Resources.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Notes.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Plans.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.OOP_assignment.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Programming_in_the_class.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Schedule.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.DS_assignment_.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.The_beginning.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College stuff.vbproj.GenerateResource.Cache
+D:\Ready files\College stuff(Ultimate)second semester\bin\Debug\College stuff.exe.config
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College stuff.exe
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College stuff.xml
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College stuff.pdb
+D:\Ready files\College stuff(Ultimate)second semester\bin\Debug\College stuff.accdb
+D:\Ready files\College stuff(Ultimate)second semester\bin\Debug\College stuff.exe
+D:\Ready files\College stuff(Ultimate)second semester\bin\Debug\College stuff.pdb
+D:\Ready files\College stuff(Ultimate)second semester\bin\Debug\College stuff.xml
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.College.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Folders.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Trials_OOP.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Free_course.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.OS.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Diverse_stuff.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Form1.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Notes_OOP.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Computer_architecture.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Notes_CA.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.CA_assignment_.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Practical_CA.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Theoretical_CA.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.VP_assignment.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Theoretical_VP.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Notes_VP.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.VP.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Resources.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Notes.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Plans.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Practical_OOP.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.OOP_assignment.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Programming_in_the_class.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Notes_DS.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Theoretical_OOP.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.OOP.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Schedule.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.DS_assignment_.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Theoretical_DS.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Data_structures.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.The_beginning.resources
+D:\Ready files\College stuff(Ultimate)second semester\obj\x86\Debug\College stuff.vbproj.GenerateResource.Cache
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College stuff.vbprojResolveAssemblyReference.cache
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.PCNt.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Information_security.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Trials_DBS.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.GIS.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.TC.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Notes_DBS.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Notes_PCNT.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Practical_PCNT.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Theoretical_PCNT.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Theoretical_GA.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Notes_GA.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.GA.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Practical_DBS.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Notes_IS.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Theoretical_DBS.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.DBS.resources
+D:\College stuff(Ultimate)second semester\obj\x86\Debug\College_stuff.Theoretical_IS.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\bin\Debug\College stuff.accdb
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\bin\Debug\College stuff.exe.config
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\bin\Debug\College stuff.exe
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\bin\Debug\College stuff.pdb
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\bin\Debug\College stuff.xml
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College stuff.vbprojResolveAssemblyReference.cache
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.College.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Folders.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Trials_DBS.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.GIS.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.TC.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Diverse_stuff.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Form1.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Notes_DBS.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.PCNt.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Notes_PCNT.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.CA_assignment_.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Practical_PCNT.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Theoretical_PCNT.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.VP_assignment.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Theoretical_GA.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Notes_GA.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.GA.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Resources.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Notes.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Plans.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Practical_DBS.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.OOP_assignment.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Programming_in_the_class.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Notes_IS.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Theoretical_DBS.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.DBS.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Schedule.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.DS_assignment_.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Theoretical_IS.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.Information_security.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College_stuff.The_beginning.resources
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College stuff.vbproj.GenerateResource.Cache
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College stuff.exe
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College stuff.xml
+E:\Projects\Projects cut from volume ُ E\College stuff(Ultimate)3rd year\obj\x86\Debug\College stuff.pdb

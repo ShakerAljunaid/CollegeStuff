@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{426C1315-43E0-4B6A-8386-3BED5E105473}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>College_stuff.My.MyApplication</StartupObject>
+    <RootNamespace>College_stuff</RootNamespace>
+    <AssemblyName>College stuff</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>College stuff.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>College stuff.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Untitled - 8.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="CloseForms.vb" />
+    <Compile Include="College stuff.Designer.vb">
+      <DependentUpon>College stuff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="College stuff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="College_stuffDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>College_stuffDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="College_stuffDataSet.vb">
+      <DependentUpon>College_stuffDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="College_stuffDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>College_stuffDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="College_stuffDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>College_stuffDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="College_stuffDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>College_stuffDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Folders.Designer.vb">
+      <DependentUpon>Folders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Folders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trials%28DBS%29.Designer.vb">
+      <DependentUpon>Trials%28DBS%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Trials%28DBS%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GIS.Designer.vb">
+      <DependentUpon>GIS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GIS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%28TC%29.Designer.vb">
+      <DependentUpon>%28TC%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%28TC%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diverse stuff.Designer.vb">
+      <DependentUpon>Diverse stuff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Diverse stuff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notes%28DBS%29.Designer.vb">
+      <DependentUpon>Notes%28DBS%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notes%28DBS%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%28PCNt%29.Designer.vb">
+      <DependentUpon>%28PCNt%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%28PCNt%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notes%28PCNT%29.Designer.vb">
+      <DependentUpon>Notes%28PCNT%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notes%28PCNT%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assignment%28PCNt%29.Designer.vb">
+      <DependentUpon>Assignment%28PCNt%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment%28PCNt%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practical%28PCNT%29.Designer.vb">
+      <DependentUpon>Practical%28PCNT%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Practical%28PCNT%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Theoretical%28PCNT%29.Designer.vb">
+      <DependentUpon>Theoretical%28PCNT%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Theoretical%28PCNT%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assignment%28GA%29.Designer.vb">
+      <DependentUpon>Assignment%28GA%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment%28GA%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Theoretical%28GA%29.Designer.vb">
+      <DependentUpon>Theoretical%28GA%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Theoretical%28GA%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notes%28GA%29.Designer.vb">
+      <DependentUpon>Notes%28GA%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notes%28GA%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%28GA%29.Designer.vb">
+      <DependentUpon>%28GA%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%28GA%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Notes.Designer.vb">
+      <DependentUpon>Notes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plans.Designer.vb">
+      <DependentUpon>Plans.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Plans.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practical %28DBS%29.Designer.vb">
+      <DependentUpon>Practical %28DBS%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Practical %28DBS%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assignment%28DBS%29.Designer.vb">
+      <DependentUpon>Assignment%28DBS%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment%28DBS%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Programming in the class.Designer.vb">
+      <DependentUpon>Programming in the class.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Programming in the class.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notes%28IS%29.Designer.vb">
+      <DependentUpon>Notes%28IS%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notes%28IS%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Theoretical%28DBS%29.Designer.vb">
+      <DependentUpon>Theoretical%28DBS%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Theoretical%28DBS%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%28DBS%29.Designer.vb">
+      <DependentUpon>%28DBS%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%28DBS%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schedule.Designer.vb">
+      <DependentUpon>Schedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assignment%28IS%29.Designer.vb">
+      <DependentUpon>Assignment%28IS%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment%28IS%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Theoretical%28IS%29.Designer.vb">
+      <DependentUpon>Theoretical%28IS%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Theoretical%28IS%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%28IS%29.Designer.vb">
+      <DependentUpon>%28IS%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%28IS%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The beginning.Designer.vb">
+      <DependentUpon>The beginning.vb</DependentUpon>
+    </Compile>
+    <Compile Include="The beginning.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="College stuff.resx">
+      <DependentUpon>College stuff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Folders.resx">
+      <DependentUpon>Folders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trials%28DBS%29.resx">
+      <DependentUpon>Trials%28DBS%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GIS.resx">
+      <DependentUpon>GIS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%28TC%29.resx">
+      <DependentUpon>%28TC%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diverse stuff.resx">
+      <DependentUpon>Diverse stuff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notes%28DBS%29.resx">
+      <DependentUpon>Notes%28DBS%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%28PCNt%29.resx">
+      <DependentUpon>%28PCNt%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notes%28PCNT%29.resx">
+      <DependentUpon>Notes%28PCNT%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assignment%28PCNt%29.resx">
+      <DependentUpon>Assignment%28PCNt%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practical%28PCNT%29.resx">
+      <DependentUpon>Practical%28PCNT%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Theoretical%28PCNT%29.resx">
+      <DependentUpon>Theoretical%28PCNT%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assignment%28GA%29.resx">
+      <DependentUpon>Assignment%28GA%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Theoretical%28GA%29.resx">
+      <DependentUpon>Theoretical%28GA%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notes%28GA%29.resx">
+      <DependentUpon>Notes%28GA%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%28GA%29.resx">
+      <DependentUpon>%28GA%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notes.resx">
+      <DependentUpon>Notes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plans.resx">
+      <DependentUpon>Plans.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practical %28DBS%29.resx">
+      <DependentUpon>Practical %28DBS%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assignment%28DBS%29.resx">
+      <DependentUpon>Assignment%28DBS%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Programming in the class.resx">
+      <DependentUpon>Programming in the class.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notes%28IS%29.resx">
+      <DependentUpon>Notes%28IS%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Theoretical%28DBS%29.resx">
+      <DependentUpon>Theoretical%28DBS%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%28DBS%29.resx">
+      <DependentUpon>%28DBS%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule.resx">
+      <DependentUpon>Schedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assignment%28IS%29.resx">
+      <DependentUpon>Assignment%28IS%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Theoretical%28IS%29.resx">
+      <DependentUpon>Theoretical%28IS%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%28IS%29.resx">
+      <DependentUpon>%28IS%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The beginning.resx">
+      <DependentUpon>The beginning.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="College_stuffDataSet.xsc">
+      <DependentUpon>College_stuffDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="College_stuffDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>College_stuffDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="College_stuffDataSet.xss">
+      <DependentUpon>College_stuffDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="College_stuffDataSet1.xsc">
+      <DependentUpon>College_stuffDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="College_stuffDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>College_stuffDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="College_stuffDataSet1.xss">
+      <DependentUpon>College_stuffDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="College_stuffDataSet2.xsc">
+      <DependentUpon>College_stuffDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="College_stuffDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>College_stuffDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="College_stuffDataSet2.xss">
+      <DependentUpon>College_stuffDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="College_stuffDataSet3.xsc">
+      <DependentUpon>College_stuffDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="College_stuffDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>College_stuffDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="College_stuffDataSet3.xss">
+      <DependentUpon>College_stuffDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="3.ico" />
+    <Content Include="College stuff.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Untitlede-2.jpg" />
+    <None Include="Resources\Untitled-d4.jpg" />
+    <None Include="Resources\Untitled-d41.jpg" />
+    <None Include="Resources\Untritled-1.jpg" />
+    <None Include="Resources\Untitddled-3.jpg" />
+    <None Include="Resources\Untitled-1111.jpg" />
+    <None Include="Resources\fff.jpg" />
+    <None Include="Resources\Ueentitled-1.jpg" />
+    <None Include="Resources\Untitled-sss8.jpg" />
+    <None Include="Resources\Untitled-131.jpg" />
+    <None Include="Resources\Untitled-132.jpg" />
+    <None Include="Resources\Untitled-134.jpg" />
+    <None Include="Resources\Untritled-13.jpg" />
+    <None Include="Resources\Untitled-191.jpg" />
+    <None Include="Resources\Untitled-223.jpg" />
+    <None Include="Resources\Untitled-262.jpg" />
+    <None Include="Resources\Untitled-272.jpg" />
+    <None Include="Resources\Untitled-273.jpg" />
+    <None Include="Resources\Untitled-302.jpg" />
+    <None Include="Resources\Untitled-331.jpg" />
+    <None Include="Resources\Untitled-351.jpg" />
+    <None Include="Resources\Untitled-38.jpg" />
+    <None Include="Resources\Untitled-391.jpg" />
+    <None Include="Resources\Untitled-282.jpg" />
+    <None Include="Resources\Untitled-91.jpg" />
+    <None Include="Resources\Untitled-102.jpg" />
+    <None Include="Resources\Untitled-68.jpg" />
+    <None Include="Resources\Untitled-20.jpg" />
+    <None Include="Resources\Untitled-5.jpg" />
+    <None Include="Resources\Untitled-113.jpg" />
+    <None Include="Resources\Untitled-491.jpg" />
+    <None Include="Resources\Untitled-432.jpg" />
+    <None Include="Resources\Untitled-314.jpg" />
+    <None Include="Resources\Untitled-51.jpg" />
+    <None Include="Resources\Untitled-561.jpg" />
+    <None Include="Resources\Untitled-24.jpg" />
+    <None Include="Resources\Untitled-332.jpg" />
+    <None Include="Resources\Untitled-392.jpg" />
+    <None Include="Resources\Untitled-433.jpg" />
+    <None Include="Resources\Untitlerd-4.jpg" />
+    <None Include="Resources\Untitled-381.jpg" />
+    <None Include="Resources\Untitled-135.jpg" />
+    <None Include="Resources\Untitlerd-41.jpg" />
+    <None Include="Resources\Untitled-25.jpg" />
+    <None Include="Resources\Untitled-434.jpg" />
+    <None Include="Resources\Untitled-52.jpg" />
+    <None Include="Resources\ssssssssssss.jpg" />
+    <None Include="Resources\Untitled-435.jpg" />
+    <None Include="Resources\Untitled-436.jpg" />
+    <None Include="Resources\Untitled-437.jpg" />
+    <None Include="Resources\Untitled-53.jpg" />
+    <None Include="Resources\Untitled-438.jpg" />
+    <None Include="Resources\Untitled-439.jpg" />
+    <None Include="Resources\Untitled-4310.jpg" />
+    <None Include="Resources\Untitled-4311.jpg" />
+    <None Include="Resources\Untitled-4312.jpg" />
+    <None Include="Resources\Untitled-4313.jpg" />
+    <None Include="Resources\Untitled-4314.jpg" />
+    <None Include="Resources\Untitled-4315.jpg" />
+    <None Include="Resources\Untitled-4316.jpg" />
+    <None Include="Resources\Untitled-85.jpg" />
+    <None Include="Resources\Untitled-54.jpg" />
+    <None Include="Resources\Untitled-4317.jpg" />
+    <None Include="Resources\Untitled-4318.jpg" />
+    <None Include="Resources\Untitled-57.jpg" />
+    <None Include="Resources\Untitled-4319.jpg" />
+    <None Include="Resources\Untitled-58.jpg" />
+    <None Include="Resources\Untitled-510.jpg" />
+    <None Include="Resources\Untitled-86.jpg" />
+    <None Include="Resources\Untitled-87.jpg" />
+    <None Include="Resources\Untitled-511.jpg" />
+    <None Include="Resources\Arabic.jpg" />
+    <None Include="Resources\English.jpg" />
+    <None Include="Resources\Arabic1.jpg" />
+    <None Include="Resources\English1.jpg" />
+    <None Include="Resources\Arabic2.jpg" />
+    <None Include="Resources\English2.jpg" />
+    <None Include="Resources\Arabic3.jpg" />
+    <None Include="Resources\Arabic4.jpg" />
+    <None Include="Resources\English3.jpg" />
+    <None Include="Resources\Arabic5.jpg" />
+    <None Include="Resources\English4.jpg" />
+    <None Include="Resources\Arabic6.jpg" />
+    <None Include="Resources\English5.jpg" />
+    <None Include="Resources\Arabic7.jpg" />
+    <None Include="Resources\English6.jpg" />
+    <None Include="Resources\Arabic8.jpg" />
+    <None Include="Resources\English7.jpg" />
+    <None Include="Resources\Arabic9.jpg" />
+    <None Include="Resources\English8.jpg" />
+    <None Include="Resources\Arabic10.jpg" />
+    <None Include="Resources\English9.jpg" />
+    <None Include="Resources\Arabic11.jpg" />
+    <None Include="Resources\English10.jpg" />
+    <None Include="Resources\Arabic12.jpg" />
+    <None Include="Resources\English11.jpg" />
+    <None Include="Resources\Arabic13.jpg" />
+    <None Include="Resources\English12.jpg" />
+    <None Include="Resources\Arabic14.jpg" />
+    <None Include="Resources\English13.jpg" />
+    <None Include="Resources\Arabic15.jpg" />
+    <None Include="Resources\English14.jpg" />
+    <None Include="Resources\Arabic16.jpg" />
+    <None Include="Resources\English15.jpg" />
+    <None Include="Resources\Arabic17.jpg" />
+    <None Include="Resources\English16.jpg" />
+    <None Include="Resources\Arabic18.jpg" />
+    <None Include="Resources\English17.jpg" />
+    <None Include="Resources\Arabic19.jpg" />
+    <None Include="Resources\English18.jpg" />
+    <None Include="Resources\S.jpg" />
+    <None Include="Resources\R.jpg" />
+    <None Include="Resources\F.jpg" />
+    <None Include="Resources\Untitled22-91.jpg" />
+    <None Include="Resources\EE.jpg" />
+    <None Include="Resources\12.jpg" />
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\3.jpg" />
+    <None Include="Resources\4.jpg" />
+    <None Include="Resources\5.jpg" />
+    <None Include="Resources\6.jpg" />
+    <None Include="Resources\8.jpg" />
+    <None Include="Resources\9.jpg" />
+    <None Include="Resources\heidelb.jpg" />
+    <None Include="Resources\00746_onetreehill_1280x1024.jpg" />
+    <None Include="Resources\13.jpg" />
+    <None Include="Resources\21.jpg" />
+    <None Include="Resources\Untitled-541.jpg" />
+    <None Include="Resources\3333.jpg" />
+    <None Include="Resources\slr.jpg" />
+    <None Include="Resources\stb.jpg" />
+    <None Include="Resources\14.jpg" />
+    <None Include="Resources\15.jpg" />
+    <None Include="Resources\moq3_com_01%2520%28130%29.jpg" />
+    <None Include="Resources\22.jpg" />
+    <None Include="Resources\DS1.jpg" />
+    <None Include="Resources\CA2.jpg" />
+    <None Include="Resources\VP.jpg" />
+    <None Include="Resources\VP2.jpg" />
+    <None Include="Resources\2b.jpg" />
+    <None Include="Resources\OS2.jpg" />
+    <None Include="Resources\OOP2.jpg" />
+    <None Include="Resources\d1.jpg" />
+    <None Include="Resources\moq3_com_01%2520%28138%29.jpg" />
+    <None Include="Resources\221.jpg" />
+    <None Include="Resources\333.jpg" />
+    <None Include="Resources\vvv.jpg" />
+    <None Include="Resources\books_education_powerpoint_backgrounds_and_templates_1210_title.jpg" />
+    <None Include="Resources\TC.jpg" />
+    <None Include="Resources\TC1.jpg" />
+    <None Include="Resources\ALAN.jpg" />
+    <None Include="Resources\DBS.jpg" />
+    <None Include="Resources\DBS1.jpg" />
+    <None Include="Resources\Untitled-136.jpg" />
+    <None Include="Resources\3in1.jpg" />
+    <None Include="Resources\PCN.jpg" />
+    <None Include="Resources\Untitled-45.jpg" />
+    <None Include="Resources\81.jpg" />
+    <None Include="Resources\564.jpg" />
+    <None Include="Resources\56.jpg" />
+    <None Include="Resources\555.jpg" />
+    <None Include="Resources\Untitled-591.jpg" />
+    <None Include="Resources\5555.jpg" />
+    <None Include="Resources\Vision %28239%29.jpg" />
+    <None Include="Resources\Reading_to_boy_girl.gif" />
+    <None Include="Resources\images %2817%29.jpg" />
+    <None Include="Resources\images %2814%29.jpg" />
+    <None Include="Resources\images %2818%29.jpg" />
+    <None Include="Resources\Vision %28150%29.jpg" />
+    <None Include="Resources\images %2814%291.jpg" />
+    <None Include="Resources\Reading_to_boy_girl1.gif" />
+    <None Include="Resources\images %2818%291.jpg" />
+    <None Include="Resources\Reading_to_boy_girl2.gif" />
+    <None Include="Resources\images %2811%29.jpg" />
+    <None Include="Resources\تنزيل %281%29.jpg" />
+    <None Include="Resources\images %2818%292.jpg" />
+    <None Include="Resources\images %2814%292.jpg" />
+    <None Include="Resources\Vision %28422%29.jpg" />
+    <None Include="Resources\Reading_to_boy_girl3.gif" />
+    <None Include="Resources\images %2818%293.jpg" />
+    <None Include="Resources\images %2814%293.jpg" />
+    <None Include="Resources\Vision %28158%29.jpg" />
+    <None Include="Resources\3333.gif" />
+    <None Include="Resources\تنزيل %281%29.gif" />
+    <None Include="Resources\Untitled1.gif" />
+    <None Include="Resources\Untitled2.gif" />
+    <None Include="Resources\Untitled3.gif" />
+    <None Include="Resources\Vision %28424%29.jpg" />
+    <None Include="Resources\Vision %28463%29.jpg" />
+    <None Include="Resources\Untitled-12.jpg" />
+    <None Include="Resources\24.jpg" />
+    <None Include="Resources\241.jpg" />
+    <None Include="Resources\Reading_to_boy_girl4.gif" />
+    <None Include="Resources\Reading_to_boy_girl.png" />
+    <None Include="Resources\Reading_to_boy_girl5.gif" />
+    <None Include="Resources\images %2811%29.gif" />
+    <None Include="Resources\تنزيل %281%291.gif" />
+    <Content Include="Untitled - 8.ico" />
+    <Content Include="Untitled-29.ico" />
+    <Content Include="Untitled-31.ico" />
+    <None Include="Resources\Untitled-37.jpg" />
+    <None Include="Resources\UntitlDDDDed-2.jpg" />
+    <None Include="Resources\sssss.jpg" />
+    <None Include="Resources\Untitleddd-8.jpg" />
+    <None Include="Resources\DD.jpg" />
+    <None Include="Resources\ss2.jpg" />
+    <None Include="Resources\ssss.jpg" />
+    <None Include="Resources\Unsstitled-1.jpg" />
+    <None Include="Resources\Untitled-701.jpg" />
+    <None Include="Resources\Untitled-6333.jpg" />
+    <None Include="Resources\Untitled-67.jpg" />
+    <None Include="Resources\Untitled-65.jpg" />
+    <None Include="Resources\Untitled-64.jpg" />
+    <None Include="Resources\save14.jpg" />
+    <None Include="Resources\save13.jpg" />
+    <None Include="Resources\save12.jpg" />
+    <None Include="Resources\save11.jpg" />
+    <None Include="Resources\save10.jpg" />
+    <None Include="Resources\save9.jpg" />
+    <None Include="Resources\save8.jpg" />
+    <None Include="Resources\save7.jpg" />
+    <None Include="Resources\save6.jpg" />
+    <None Include="Resources\save5.jpg" />
+    <None Include="Resources\save4.jpg" />
+    <None Include="Resources\save3.jpg" />
+    <None Include="Resources\save2.jpg" />
+    <None Include="Resources\Untitled-72.jpg" />
+    <None Include="Resources\Untitled-69.jpg" />
+    <None Include="Resources\Untitled-313.jpg" />
+    <None Include="Resources\Untitled-661.jpg" />
+    <None Include="Resources\Untitled-59.jpg" />
+    <None Include="Resources\Untitled-56.jpg" />
+    <None Include="Resources\Untitledd-49.jpg" />
+    <None Include="Resources\Untitled-312.jpg" />
+    <None Include="Resources\Untitled-431.jpg" />
+    <None Include="Resources\Untitled-42.jpg" />
+    <None Include="Resources\Untitled-35.jpg" />
+    <None Include="Resources\Untitled-311.jpg" />
+    <None Include="Resources\Untitled-31.jpg" />
+    <None Include="Resources\Untitled-301.jpg" />
+    <None Include="Resources\images %2827%291.jpg" />
+    <None Include="Resources\Untitled-281.jpg" />
+    <None Include="Resources\Untitled-222.jpg" />
+    <None Include="Resources\Uentitled-21.jpg" />
+    <None Include="Resources\save1.jpg" />
+    <None Include="Resources\save.jpg" />
+    <None Include="Resources\Untitlted-16.jpg" />
+    <None Include="Resources\images %2827%29.jpg" />
+    <None Include="Resources\Untitlerd-14.jpg" />
+    <None Include="Resources\Untitlrred-9.jpg" />
+    <None Include="Resources\Untitled-8.png" />
+    <None Include="Resources\Unti77tled-5.jpg" />
+    <None Include="Resources\reload.png" />
+    <None Include="Resources\d.jpg" />
+    <None Include="Resources\Untitlesd-2.jpg" />
+    <None Include="Resources\Untitledaa-1.jpg" />
+    <None Include="Resources\Untitled-3301.jpg" />
+    <None Include="Resources\Untitled-632.jpg" />
+    <None Include="Resources\Untitled-631.jpg" />
+    <None Include="Resources\UntitleRRd-171.jpg" />
+    <None Include="Resources\Untit88led-3.jpg" />
+    <None Include="Resources\Untitled-168.jpg" />
+    <None Include="Resources\Untitled-167.jpg" />
+    <None Include="Resources\Untitled-166.jpg" />
+    <None Include="Resources\UntitleRRd-17.jpg" />
+    <None Include="Resources\Untitled-165.jpg" />
+    <None Include="Resources\Untitled-164.jpg" />
+    <None Include="Resources\Untitled-163.jpg" />
+    <None Include="Resources\Untitled-162.jpg" />
+    <None Include="Resources\Untitled-161.jpg" />
+    <None Include="Resources\Untitled-16.jpg" />
+    <None Include="Resources\Untitled-5515.jpg" />
+    <None Include="Resources\U77ntitled-14.jpg" />
+    <None Include="Resources\Untitle44d-13.jpg" />
+    <None Include="Resources\Un77titled-12.jpg" />
+    <None Include="Resources\5Un55titled-11.jpg" />
+    <None Include="Resources\Untitledh-10.jpg" />
+    <None Include="Resources\Unti7tled-9.jpg" />
+    <None Include="Resources\Untit44led-8.jpg" />
+    <None Include="Resources\Unt88itled-7.jpg" />
+    <None Include="Resources\Untitl5ed-5.jpg" />
+    <None Include="Resources\Untitl88ed-3.jpg" />
+    <None Include="Resources\Untitled-88121.jpg" />
+    <None Include="Resources\Untitled-14881.jpg" />
+    <None Include="Resources\Untitled-11881.jpg" />
+    <None Include="Resources\Un5titled-2.jpg" />
+    <None Include="Resources\Untitled-1488.jpg" />
+    <None Include="Resources\Untitled-8812.jpg" />
+    <None Include="Resources\Untitled-1188.jpg" />
+    <None Include="Resources\Un55titled-11.jpg" />
+    <None Include="Resources\l3.jpg" />
+    <None Include="Resources\Untitled-112.jpg" />
+    <None Include="Resources\Untitled-84.jpg" />
+    <None Include="Resources\5-1.jpg" />
+    <None Include="Resources\c2.jpg" />
+    <None Include="Resources\c1.jpg" />
+    <None Include="Resources\l2.jpg" />
+    <None Include="Resources\l1.jpg" />
+    <None Include="Resources\l.jpg" />
+    <None Include="Resources\c.jpg" />
+    <None Include="Resources\p.jpg" />
+    <None Include="Resources\1111.jpg" />
+    <None Include="Resources\Untitled-97888.jpg" />
+    <None Include="Resources\Untitled-9777.jpg" />
+    <None Include="Resources\Untitled-7779.jpg" />
+    <None Include="Resources\Untitled-9888.jpg" />
+    <None Include="Resources\Untitled22-9.jpg" />
+    <None Include="Resources\Untitled44-9.jpg" />
+    <None Include="Resources\Untitled-944.jpg" />
+    <None Include="Resources\Untitled-119.jpg" />
+    <None Include="Resources\Untitled-90.jpg" />
+    <None Include="Resources\Untitled-49.jpg" />
+    <None Include="Resources\Untitled-722.jpg" />
+    <None Include="Resources\Untitled-6888.jpg" />
+    <None Include="Resources\Untitled-75.jpg" />
+    <None Include="Resources\Untitled-71.jpg" />
+    <None Include="Resources\Untitled-41.jpg" />
+    <None Include="Resources\Untitled-1.jpg" />
+    <None Include="Resources\Untitled-2.jpg" />
+    <None Include="Resources\moq3_com_01%2520%28176%29.jpg" />
+    <None Include="Resources\23.jpg" />
+    <None Include="Resources\7.jpg" />
+    <None Include="Resources\32.jpg" />
+    <None Include="Resources\Untitled-330.jpg" />
+    <None Include="Resources\Untitled-271.jpg" />
+    <None Include="Resources\Untitled-28.jpg" />
+    <None Include="Resources\Untitled-1271.jpg" />
+    <None Include="Resources\Untitled-27.jpg" />
+    <None Include="Resources\Untitled-253.jpg" />
+    <None Include="Resources\Untitled-241.jpg" />
+    <None Include="Resources\Untitled-19.jpg" />
+    <None Include="Resources\Untitled-1953.jpg" />
+    <None Include="Resources\Untitled-19952.jpg" />
+    <None Include="Resources\Untitled-199962.jpg" />
+    <None Include="Resources\Untitled-15564.jpg" />
+    <None Include="Resources\Untitled-199961.jpg" />
+    <None Include="Resources\Untitled-15563.jpg" />
+    <None Include="Resources\Untitled-15562.jpg" />
+    <None Include="Resources\Untitled-19996.jpg" />
+    <None Include="Resources\Untitled-15561.jpg" />
+    <None Include="Resources\Untitled-1556.jpg" />
+    <None Include="Resources\Untitled-19951.jpg" />
+    <None Include="Resources\Untitled-1995.jpg" />
+    <None Include="Resources\Untitled-181.jpg" />
+    <None Include="Resources\Untitled-887.jpg" />
+    <None Include="Resources\Untitled-127.jpg" />
+    <None Include="Resources\Untitled-83.jpg" />
+    <None Include="Resources\Untitled-63.jpg" />
+    <None Include="Resources\Untitled-1952.jpg" />
+    <None Include="Resources\Untitled-82.jpg" />
+    <None Include="Resources\Untitled-62.jpg" />
+    <None Include="Resources\Untitled-61.jpg" />
+    <None Include="Resources\Untitled-551.jpg" />
+    <None Include="Resources\Untitled-43.jpg" />
+    <None Include="Resources\Untitled-108.jpg" />
+    <None Include="Resources\Untitled-70.jpg" />
+    <None Include="Resources\Untitled-81.jpg" />
+    <None Include="Resources\Untitled-39.jpg" />
+    <None Include="Resources\Untitled-6.bmp" />
+    <None Include="Resources\Untitled-293.jpg" />
+    <None Include="Resources\Untitled-261.jpg" />
+    <None Include="Resources\Untitled-1951.jpg" />
+    <None Include="Resources\Untitled-292.jpg" />
+    <None Include="Resources\Untitled-32.jpg" />
+    <None Include="Resources\Untitled-30.jpg" />
+    <None Include="Resources\Untitled-291.jpg" />
+    <None Include="Resources\Untitled-29.jpg" />
+    <None Include="Resources\Untitled-26.jpg" />
+    <None Include="Resources\Untitled-221.jpg" />
+    <None Include="Resources\Untitled-211.jpg" />
+    <None Include="Resources\Untitled-23.jpg" />
+    <None Include="Resources\Untitled-22.jpg" />
+    <None Include="Resources\Untitled-21.jpg" />
+    <None Include="Resources\Untitled-18.jpg" />
+    <None Include="Resources\Untitled-195.jpg" />
+    <None Include="Resources\Pic.jpg" />
+    <None Include="Resources\Prgb2.jpg" />
+    <None Include="Resources\Untitled-4.jpg" />
+    <None Include="Resources\Untitled-101.jpg" />
+    <None Include="Resources\Untitled-150.jpg" />
+    <None Include="Resources\Untitled-10.jpg" />
+    <None Include="Resources\Untitled-99.jpg" />
+    <None Include="Resources\Untitled5-8.jpg" />
+    <None Include="Resources\Untitled-9.jpg" />
+    <None Include="Resources\Fantasy Nature 137.jpg" />
+    <None Include="Resources\Untitled-13.jpg" />
+    <None Include="Resources\Untitled-11.jpg" />
+    <None Include="Resources\Untitled-15.jpg" />
+    <None Include="Resources\Untitled-8.jpg" />
+    <None Include="Resources\Untitled-7.jpg" />
+    <None Include="Resources\Untitled-6.jpg" />
+    <None Include="Resources\Untitled-77.jpg" />
+    <None Include="Resources\Untitled-66.jpg" />
+    <None Include="Resources\Untitled-55.jpg" />
+    <None Include="Resources\Untitled-44.jpg" />
+    <None Include="Resources\Untitled-33.jpg" />
+    <None Include="Resources\Untitled-1332.jpg" />
+    <None Include="Resources\Untitled-1331.jpg" />
+    <None Include="Resources\Untitled-1221.jpg" />
+    <None Include="Resources\Untitled-133.jpg" />
+    <None Include="Resources\Untitled-122.jpg" />
+    <None Include="Resources\Untitled-100.jpg" />
+    <None Include="Resources\Untitled-111.jpg" />
+    <None Include="Resources\Untitled-555.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

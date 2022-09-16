@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="College_stuffDataSet4" targetNamespace="http://tempuri.org/College_stuffDataSet4.xsd" xmlns:mstns="http://tempuri.org/College_stuffDataSet4.xsd" xmlns="http://tempuri.org/College_stuffDataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="College_stuffConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="College_stuffConnectionString (MySettings)" PropertyReference="ApplicationSettings.College_stuff.My.MySettings.GlobalReference.Default.College_stuffConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Programming(assignment)TableAdapter" GeneratorDataComponentClassName="Programming_assignment_TableAdapter" Name="Programming(assignment)" UserDataComponentName="Programming(assignment)TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="College_stuffConnectionString (MySettings)" DbObjectName="Programming(assignment)" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Components1, Components2, Components3, Components4, Components5 FROM [Programming(assignment)]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Components1" DataSetColumn="Components1" />
+              <Mapping SourceColumn="Components2" DataSetColumn="Components2" />
+              <Mapping SourceColumn="Components3" DataSetColumn="Components3" />
+              <Mapping SourceColumn="Components4" DataSetColumn="Components4" />
+              <Mapping SourceColumn="Components5" DataSetColumn="Components5" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Programming(practical)TableAdapter" GeneratorDataComponentClassName="Programming_practical_TableAdapter" Name="Programming(practical)" UserDataComponentName="Programming(practical)TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="College_stuffConnectionString (MySettings)" DbObjectName="Programming(practical)" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Components1, Components2, Components3, Components4, Components5, Components6 FROM [Programming(practical)]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Components1" DataSetColumn="Components1" />
+              <Mapping SourceColumn="Components2" DataSetColumn="Components2" />
+              <Mapping SourceColumn="Components3" DataSetColumn="Components3" />
+              <Mapping SourceColumn="Components4" DataSetColumn="Components4" />
+              <Mapping SourceColumn="Components5" DataSetColumn="Components5" />
+              <Mapping SourceColumn="Components6" DataSetColumn="Components6" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Programming(trialsl)TableAdapter" GeneratorDataComponentClassName="Programming_trialsl_TableAdapter" Name="Programming(trialsl)" UserDataComponentName="Programming(trialsl)TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="College_stuffConnectionString (MySettings)" DbObjectName="Programming(trialsl)" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Components1, Components2, Components3, Components4, Components5 FROM [Programming(trialsl)]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Components1" DataSetColumn="Components1" />
+              <Mapping SourceColumn="Components2" DataSetColumn="Components2" />
+              <Mapping SourceColumn="Components3" DataSetColumn="Components3" />
+              <Mapping SourceColumn="Components4" DataSetColumn="Components4" />
+              <Mapping SourceColumn="Components5" DataSetColumn="Components5" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="College_stuffDataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="College_stuffDataSet4" msprop:Generator_UserDSName="College_stuffDataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Programming_x0028_assignment_x0029_" msprop:Generator_TableClassName="_Programming_assignment_DataTable" msprop:Generator_TableVarName="_tableProgramming_assignment_" msprop:Generator_TablePropName="_Programming_assignment_" msprop:Generator_RowDeletingName="_Programming_assignment_RowDeleting" msprop:Generator_RowChangingName="_Programming_assignment_RowChanging" msprop:Generator_RowEvHandlerName="_Programming_assignment_RowChangeEventHandler" msprop:Generator_RowDeletedName="_Programming_assignment_RowDeleted" msprop:Generator_UserTableName="Programming(assignment)" msprop:Generator_RowChangedName="_Programming_assignment_RowChanged" msprop:Generator_RowEvArgName="_Programming_assignment_RowChangeEvent" msprop:Generator_RowClassName="_Programming_assignment_Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Components1" msprop:Generator_ColumnVarNameInTable="columnComponents1" msprop:Generator_ColumnPropNameInRow="Components1" msprop:Generator_ColumnPropNameInTable="Components1Column" msprop:Generator_UserColumnName="Components1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Components2" msprop:Generator_ColumnVarNameInTable="columnComponents2" msprop:Generator_ColumnPropNameInRow="Components2" msprop:Generator_ColumnPropNameInTable="Components2Column" msprop:Generator_UserColumnName="Components2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Components3" msprop:Generator_ColumnVarNameInTable="columnComponents3" msprop:Generator_ColumnPropNameInRow="Components3" msprop:Generator_ColumnPropNameInTable="Components3Column" msprop:Generator_UserColumnName="Components3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Components4" msprop:Generator_ColumnVarNameInTable="columnComponents4" msprop:Generator_ColumnPropNameInRow="Components4" msprop:Generator_ColumnPropNameInTable="Components4Column" msprop:Generator_UserColumnName="Components4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Components5" msprop:Generator_ColumnVarNameInTable="columnComponents5" msprop:Generator_ColumnPropNameInRow="Components5" msprop:Generator_ColumnPropNameInTable="Components5Column" msprop:Generator_UserColumnName="Components5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Programming_x0028_practical_x0029_" msprop:Generator_TableClassName="_Programming_practical_DataTable" msprop:Generator_TableVarName="_tableProgramming_practical_" msprop:Generator_TablePropName="_Programming_practical_" msprop:Generator_RowDeletingName="_Programming_practical_RowDeleting" msprop:Generator_RowChangingName="_Programming_practical_RowChanging" msprop:Generator_RowEvHandlerName="_Programming_practical_RowChangeEventHandler" msprop:Generator_RowDeletedName="_Programming_practical_RowDeleted" msprop:Generator_UserTableName="Programming(practical)" msprop:Generator_RowChangedName="_Programming_practical_RowChanged" msprop:Generator_RowEvArgName="_Programming_practical_RowChangeEvent" msprop:Generator_RowClassName="_Programming_practical_Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Components1" msprop:Generator_ColumnVarNameInTable="columnComponents1" msprop:Generator_ColumnPropNameInRow="Components1" msprop:Generator_ColumnPropNameInTable="Components1Column" msprop:Generator_UserColumnName="Components1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Components2" msprop:Generator_ColumnVarNameInTable="columnComponents2" msprop:Generator_ColumnPropNameInRow="Components2" msprop:Generator_ColumnPropNameInTable="Components2Column" msprop:Generator_UserColumnName="Components2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Components3" msprop:Generator_ColumnVarNameInTable="columnComponents3" msprop:Generator_ColumnPropNameInRow="Components3" msprop:Generator_ColumnPropNameInTable="Components3Column" msprop:Generator_UserColumnName="Components3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Components4" msprop:Generator_ColumnVarNameInTable="columnComponents4" msprop:Generator_ColumnPropNameInRow="Components4" msprop:Generator_ColumnPropNameInTable="Components4Column" msprop:Generator_UserColumnName="Components4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Components5" msprop:Generator_ColumnVarNameInTable="columnComponents5" msprop:Generator_ColumnPropNameInRow="Components5" msprop:Generator_ColumnPropNameInTable="Components5Column" msprop:Generator_UserColumnName="Components5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Components6" msprop:Generator_ColumnVarNameInTable="columnComponents6" msprop:Generator_ColumnPropNameInRow="Components6" msprop:Generator_ColumnPropNameInTable="Components6Column" msprop:Generator_UserColumnName="Components6" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Programming_x0028_trialsl_x0029_" msprop:Generator_TableClassName="_Programming_trialsl_DataTable" msprop:Generator_TableVarName="_tableProgramming_trialsl_" msprop:Generator_TablePropName="_Programming_trialsl_" msprop:Generator_RowDeletingName="_Programming_trialsl_RowDeleting" msprop:Generator_RowChangingName="_Programming_trialsl_RowChanging" msprop:Generator_RowEvHandlerName="_Programming_trialsl_RowChangeEventHandler" msprop:Generator_RowDeletedName="_Programming_trialsl_RowDeleted" msprop:Generator_UserTableName="Programming(trialsl)" msprop:Generator_RowChangedName="_Programming_trialsl_RowChanged" msprop:Generator_RowEvArgName="_Programming_trialsl_RowChangeEvent" msprop:Generator_RowClassName="_Programming_trialsl_Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Components1" msprop:Generator_ColumnVarNameInTable="columnComponents1" msprop:Generator_ColumnPropNameInRow="Components1" msprop:Generator_ColumnPropNameInTable="Components1Column" msprop:Generator_UserColumnName="Components1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Components2" msprop:Generator_ColumnVarNameInTable="columnComponents2" msprop:Generator_ColumnPropNameInRow="Components2" msprop:Generator_ColumnPropNameInTable="Components2Column" msprop:Generator_UserColumnName="Components2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Components3" msprop:Generator_ColumnVarNameInTable="columnComponents3" msprop:Generator_ColumnPropNameInRow="Components3" msprop:Generator_ColumnPropNameInTable="Components3Column" msprop:Generator_UserColumnName="Components3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Components4" msprop:Generator_ColumnVarNameInTable="columnComponents4" msprop:Generator_ColumnPropNameInRow="Components4" msprop:Generator_ColumnPropNameInTable="Components4Column" msprop:Generator_UserColumnName="Components4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Components5" msprop:Generator_ColumnVarNameInTable="columnComponents5" msprop:Generator_ColumnPropNameInRow="Components5" msprop:Generator_ColumnPropNameInTable="Components5Column" msprop:Generator_UserColumnName="Components5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

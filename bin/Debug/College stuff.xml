@@ -1,0 +1,2304 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Collegestuff
+</name>
+</assembly>
+<members>
+<member name="T:College_stuff.College_stuffDataSet3.Computer_ethicsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet3.Computer_ethicsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet3.Computer_ethicsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet3TableAdapters.Computer_ethicsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(College_stuff.College_stuffDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(College_stuff.College_stuffDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(College_stuff.College_stuffDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSet3TableAdapters.TableAdapterManager.UpdateAll(College_stuff.College_stuffDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Communication_skillsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Computer_ethicsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Logic_design_Assignment_DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Logic_design_Practical_DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Logic_design_theorical_DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.MathDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Math_assignment_DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Programming_assignment_DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Programming_practical_DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Programming_theorical_DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.statistic_and_possibilitiesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._statistic_and_possibilities_Assignment_DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Weekly_scheduleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.PlansDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Diverse_stuffDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Programming_In_the_classl_DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Programming_NotesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Programming_trialsl_DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Statistics_NotesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Logic_design_NotesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Math_NotesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.NotesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Communication_skillsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Computer_ethicsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Logic_design_Assignment_Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Logic_design_Practical_Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Logic_design_theorical_Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.MathRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Math_assignment_Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Programming_assignment_Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Programming_practical_Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Programming_theorical_Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.statistic_and_possibilitiesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._statistic_and_possibilities_Assignment_Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Weekly_scheduleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.PlansRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Diverse_stuffRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Programming_In_the_classl_Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Programming_NotesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Programming_trialsl_Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Statistics_NotesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Logic_design_NotesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Math_NotesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.NotesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Communication_skillsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Computer_ethicsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Logic_design_Assignment_RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Logic_design_Practical_RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Logic_design_theorical_RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.MathRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Math_assignment_RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Programming_assignment_RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Programming_practical_RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Programming_theorical_RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.statistic_and_possibilitiesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._statistic_and_possibilities_Assignment_RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Weekly_scheduleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.PlansRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Diverse_stuffRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Programming_In_the_classl_RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Programming_NotesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet._Programming_trialsl_RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Statistics_NotesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Logic_design_NotesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.Math_NotesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet.NotesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Communication_skillsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Computer_ethicsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Logic_design_Assignment_TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Logic_design_Practical_TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Logic_design_theorical_TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.MathTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Math_assignment_TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Programming_assignment_TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Programming_practical_TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Programming_theorical_TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.statistic_and_possibilitiesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.statistic_and_possibilities_Assignment_TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Weekly_scheduleTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.PlansTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Diverse_stuffTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Programming_In_the_classl_TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Programming_NotesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Programming_trialsl_TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Statistics_NotesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Logic_design_NotesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.Math_NotesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.NotesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(College_stuff.College_stuffDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(College_stuff.College_stuffDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(College_stuff.College_stuffDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSetTableAdapters.TableAdapterManager.UpdateAll(College_stuff.College_stuffDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._00746_onetreehill_1280x1024">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._1111">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._12">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._13">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._14">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._15">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._21">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._22">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._221">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._23">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._241">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._2b">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._333">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._3333">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._33331">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._3in1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._5_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._555">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._5555">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._56">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._564">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._5Un55titled_11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._5Un55titled_111">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._8">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._81">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources._9">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.ALAN">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Arabic">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Arabic1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Arabic10">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Arabic2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Arabic3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Arabic4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Arabic5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Arabic6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Arabic7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Arabic8">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Arabic9">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.books_education_powerpoint_backgrounds_and_templates_1210_title">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.c">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.c1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.c2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.CA2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.d">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.d1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.d2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.DBS">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.DBS1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.DD">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.DS1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.EE">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.English">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.English1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.English10">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.English2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.English3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.English4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.English5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.English6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.English7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.English8">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.English9">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.F">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Fantasy_Nature_137">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.fff">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.heidelb">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.images__11_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.images__11_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.images__14_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.images__14_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.images__14_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.images__14_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.images__17_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.images__18_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.images__18_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.images__18_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.images__18_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.images__27_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.images__27_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.l">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.l1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.l2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.l3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.moq3_com_01_20_130_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.moq3_com_01_20_138_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.moq3_com_01_20_176_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.OOP2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.OS2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.p">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.PCN">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Pic">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Pic1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Prgb2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.R">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Reading_to_boy_girl">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Reading_to_boy_girl1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Reading_to_boy_girl2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Reading_to_boy_girl3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Reading_to_boy_girl4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Reading_to_boy_girl5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Reading_to_boy_girl6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.reload">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.reload1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.S">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.save1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.save10">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.save13">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.save2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.save21">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.save3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.save4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.save5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.save6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.save7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.save71">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.save8">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.save9">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.save91">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.save92">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.slr">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.ss2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.ssss">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.sssss">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.ssssssssssss">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.stb">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.TC">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.TC1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.U77ntitled_14">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Ueentitled_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Uentitled_21">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Un55titled_11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Un5titled_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Un77titled_12">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Un77titled_121">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Unsstitled_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Unt88itled_7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Unti77tled_5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Unti7tled_9">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untit44led_8">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untit88led_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitddled_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitl5ed_5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitl5ed_51">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitl88ed_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitl88ed_31">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.UntitlDDDDed_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitle44d_13">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_10">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_101">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_102">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_108">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_111">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1111">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_112">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_113">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1188">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_11881">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_119">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_12">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_122">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1221">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_127">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1271">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_13">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_131">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_132">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_133">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1331">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1332">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_134">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_135">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1351">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_136">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1488">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_14881">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_15">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_150">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1556">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_15561">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_155611">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_15562">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_15563">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_15564">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_161">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_162">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_163">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1631">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_164">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_165">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_166">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_167">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_168">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_169">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_18">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_181">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_19">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_191">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_195">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1951">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_19511">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_19512">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_19513">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1952">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_19521">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_19522">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1953">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1954">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1955">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1956">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1957">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1958">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1959">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1995">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_19951">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_199511">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_19952">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_19953">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_19954">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_19955">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_19996">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_199961">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1999611">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_1999612">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_199962">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_199963">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_199964">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_199965">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_20">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_21">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_211">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_22">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_221">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_222">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_223">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_23">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_241">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_25">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_253">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_26">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_261">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_262">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_27">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_271">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_272">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_273">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_28">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_281">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_282">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_29">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_291">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_292">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_293">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_30">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_301">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_302">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_31">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_311">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_312">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_313">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_314">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_33">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_330">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_3301">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_331">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_332">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_35">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_351">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_37">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_38">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_381">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_39">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_391">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_392">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_41">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_42">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_43">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_431">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_4310">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_432">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_433">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_434">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_435">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_436">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_437">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_438">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_439">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_44">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_45">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_46">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_49">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_491">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_51">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_510">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_52">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_53">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_54">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_541">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_55">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_551">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_5515">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_555">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_56">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_561">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_57">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_58">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_59">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_591">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_61">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_610">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_62">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_63">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_631">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_632">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_6333">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_641">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_65">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_651">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_66">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_661">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_67">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_671">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_68">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_6888">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_69">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_691">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_70">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_701">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_702">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_71">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_72">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_722">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_75">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_77">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_7779">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_8">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_81">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_811">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_812">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_813">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_814">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_815">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_816">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_817">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_82">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_821">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_822">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_83">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_831">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_84">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_85">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_86">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_87">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_88">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_8812">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_88121">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_887">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_9">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_90">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_91">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_944">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_9777">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_97888">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_9888">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_99">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_d4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_d41">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled_sss8">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled22_9">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled22_91">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled44_9">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitled5_8">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitledaa_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitledd_49">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitleddd_8">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitlede_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitledh_10">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitlerd_14">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitlerd_4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitlerd_41">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.UntitleRRd_17">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.UntitleRRd_171">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.UntitleRRd_172">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitlesd_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitlrred_9">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitlted_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitlted_161">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitlted_162">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitlted_163">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitlted_164">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitlted_165">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitlted_166">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitlted_167">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untitlted_168">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untritled_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untritled_11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Untritled_13">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Vision__150_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Vision__158_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Vision__239_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Vision__422_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Vision__424_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.Vision__463_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.VP">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.VP2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.vvv">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.تنزيل__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.تنزيل__1_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:College_stuff.My.Resources.Resources.تنزيل__1_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:College_stuff.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet2.Computer_ethicsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet2.Computer_ethicsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet2.Computer_ethicsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet2TableAdapters.Computer_ethicsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(College_stuff.College_stuffDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(College_stuff.College_stuffDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(College_stuff.College_stuffDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSet2TableAdapters.TableAdapterManager.UpdateAll(College_stuff.College_stuffDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet1._Trials_VP_DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet1._Trials_VP_Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet1._Trials_VP_RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet1TableAdapters.Trials_VP_TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(College_stuff.College_stuffDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(College_stuff.College_stuffDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(College_stuff.College_stuffDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:College_stuff.College_stuffDataSet1TableAdapters.TableAdapterManager.UpdateAll(College_stuff.College_stuffDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:College_stuff.College_stuffDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
